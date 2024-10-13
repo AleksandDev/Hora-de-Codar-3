@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function pegarNota(){
+        var nota1 = prompt("Digite a primeira nota: ")
+        var nota2 = prompt("Digite a segunda nota: ") 
+        var media = (nota1 + nota2) / 2 
+        if (media >= 9.5){
+            alert("Aprovado")
+        } else {alert("Reprovado")}
+    }
+        pegarNota()
+        var outro = prompt("Calcular a média de outro aluno")
+        if (outro == 'Sim'){
+        pegarNota()
+    }   else {;}
+           
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var contador = 0;
+        var soma = 0;
+        var media = 0;
+
+        while (contador < 6) {
+        var nota = parseFloat(prompt("Digite a nota " + (contador + 1) + ": "));
+        if (nota < 0 || nota > 10) {
+        alert("Nota inválida. Digite um valor entre 0 e 10.");
+        } else {
+        contador++;
+        soma += nota;
+        }
+    }
+
+        media = soma / 6;
+        alert("A média do aluno é: " + media);
+    </script>
+</body>
+</html>
