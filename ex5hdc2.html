@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercico_js6</title>
+</head>
+<body>
+    <script>
+        var peso = parseFloat(prompt("Digite seu peso: "));
+        var idade = parseInt(prompt("Digite sua idade: "));
+        var totalLetrasNome = parseInt(prompt("Digite o total de letras contidas em seu nome: "));
+        var quantidadeRefeicoes = parseInt(prompt("Digite a quantidade de refeições que você faz no dia: "));
+        var quantidadePalavrasIngles = parseInt(prompt("Digite a quantidade de palavras em inglês que você aprende por semana: "));
+        var quantidadeSeriesFilmes = parseInt(prompt("Digite quantas séries/filmes assistiu esse mês: "));
+        var soma = peso + idade + totalLetrasNome + quantidadeRefeicoes + quantidadePalavrasIngles + quantidadeSeriesFilmes;
+        var media = soma / 6;
+
+        alert("Os números informados foram: " + peso + ", " + idade + ", " + totalLetrasNome + ", " + quantidadeRefeicoes + ", " + quantidadePalavrasIngles + ", " + quantidadeSeriesFilmes);
+        alert("A soma dos valores é: " + soma);
+        alert("A média aritmética é: " + media);
+    </script>
+</body>
+</html>
